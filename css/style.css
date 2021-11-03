@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+.full_container {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+}
+
+.div_log_cont {
+    background-color: #ff647a;
+    background-repeat: no-repeat;
+    width: 30vw;
+}
+.div_log_cont >h1{
+    letter-spacing: 2px;
+    font-size: 2.5em;
+    font-family: Helvetica;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding-top: 25%;
+    padding-bottom: 40px;
+}
+
+/* Lado right */
+
+.div_log_cont > img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+.div_form_cont {
+    background: #000;
+    width: 70vw;
+    color: #fff;
+    text-align: center;
+}
+.div_form_cont >h2  {
+    letter-spacing: 2px;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: Helvetica;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    margin-top: 34vh;
+}
+.div_form_cont >h2:last-of-type {
+    margin-top: 20px
+}
+
+.div_form_cont button {
+    width: 23vh;
+    padding: 10px;
+    margin: 3vh 20px;
+}
+
+.div_form_cont button> a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 800;
+    text-transform: uppercase;
+}
